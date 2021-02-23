@@ -1,0 +1,120 @@
+body {
+	background-color: #262626;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+@font-face {
+    font-family: 'timer_font';
+    src: url('font\IstokWeb-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+
+  }
+
+  .line_one, .line_two, .mission_name_box{
+    width: 100%;
+    display: flex;
+    align-items:center;
+  justify-content:center;
+    flex-wrap: wrap;
+  }
+  .mission_name_div{
+    /* width: 600px;
+    height: 90px;
+    text-align: center; */
+    margin-top: 40px;
+    border-radius: 20px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 3rem;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 8px 8px 16px 7px,
+    rgba(255, 255, 255, 0.1) -8px -8px 16px -3px; */
+}
+
+.mission_name_div p{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #888888;
+}
+
+.utc_clock{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 20px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 8px 8px 16px 7px,
+    rgba(255, 255, 255, 0.1) -8px -8px 16px -3px;
+}
+
+.utc_clock p{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #888888;
+}
+
+.ist_clock{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 20px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 8px 8px 16px 7px,
+    rgba(255, 255, 255, 0.1) -8px -8px 16px -3px;
+}
+
+.ist_clock p{
+    margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    color: #888888;
+}
+
+.timer_clock{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 20px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.2) inset 8px 8px 20px 7px,
+    rgba(255, 255, 255, 0.1) inset -8px -8px 20px -3px;
+}
+
+.timer_clock p{
+    margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    color: #888888;
+}
+
+.utc_box, .ist_box, .timer_box{
+    text-align: center;
+}
+
+
+.label{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #888888;
+}
+
+
