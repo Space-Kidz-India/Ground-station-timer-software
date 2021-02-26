@@ -91,8 +91,8 @@ body {
     border-radius: 20px;
     font-family: 'Istok Web', sans-serif;
     font-size: 5rem;
-    box-shadow: rgba(0, 0, 0, 0.2) inset 8px 8px 20px 7px,
-    rgba(255, 255, 255, 0.1) inset -8px -8px 20px -3px;
+    box-shadow: rgba(0, 0, 0, 0.2)  8px 8px 20px 7px,
+    rgba(255, 255, 255, 0.1)  -8px -8px 20px -3px;
 }
 
 .timer_clock p{
@@ -116,5 +116,7 @@ body {
     font-weight: 700;
     color: #888888;
 }
+
+
 
 
