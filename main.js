@@ -7,7 +7,7 @@ function checkTime(i) {
   
   function startTime() {
     var today = new Date();
-    var launch_day = new Date('February 28, 2021 10:24:00');
+    var launch_day = new Date('December 15, 2022 00:00:00');
     var ist_h = today.getHours();
     var ist_m = today.getMinutes();
     var ist_s = today.getSeconds();
