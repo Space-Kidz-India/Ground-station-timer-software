@@ -10,6 +10,10 @@ body {
 
   }
 
+
+  .missionName{
+    font-family: Arial, Helvetica, sans-serif;
+  }
   .line_one, .line_two, .mission_name_box{
     width: 100%;
     display: flex;
